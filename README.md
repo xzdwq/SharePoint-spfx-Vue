@@ -1,25 +1,6 @@
-# info-card
-
-This project uses [VueJS](https://vuejs.org).
-
-> This is where you include your project's documentation.
-
-## Global dependencies
-
-Requires Gulp globally installed:
-
-```shell
-npm install --global gulp
-```
-
 ## Building the code
 
-Download & install all dependencies, build, bundle & package the project
-
 ```shell
-# download & install dependencies
-npm install
-
 # transpile all TypeScript & SCSS => JavaScript & CSS
 gulp build
 
@@ -97,7 +78,7 @@ npm i @pnp/generator-spfx --global
 
 yo @pnp/spfx
 
-Удалить папку node_modules
+Удалить папку node_modules в проекте
 nvm use 10.24.0
 
 npm i
