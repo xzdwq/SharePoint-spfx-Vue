@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "info-cards-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/infoCards/InfoCardsWebPart.js",
+          "manifest": "./src/webparts/infoCards/InfoCardsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "localizedResources": {
+    "InfoCardsWebPartStrings": "lib/webparts/infoCards/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
