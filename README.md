@@ -80,6 +80,7 @@ cd <appName>
 nvm use 10.24.0
 
 npm i
+gulp build
 gulp serve
 
 # https://localhost:4321/temp/workbench.html
@@ -94,8 +95,7 @@ npm i yo --global
 npm i @microsoft/generator-sharepoint --global
 npm i @pnp/generator-spfx --global
 
-yo
- - @pnp/spfx
+yo @pnp/spfx
 
 Удалить папку node_modules
 nvm use 10.24.0
@@ -111,6 +111,7 @@ gulp trust-dev-cert
   - в блоке "api" поменять порт с 5432 на 2345
 
 
+gulp build
 gulp serve
 
 https://localhost:4321/temp/workbench.html
